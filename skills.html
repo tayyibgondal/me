@@ -4,28 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.7;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2C3E50;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #2C3E50;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 3px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-content {
+            flex: 1;
+        }
+
+        /* Back to Main Page Button */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #34495E;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1em;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Skills</h1>
+    <div class="container">
 
-    <h3>Languages</h3>
-    <p>Python, C++, Java, Matlab, SQL, Shell script</p>
+        <div class="card">
+            <img src="images/python.jpeg" alt="Programming Languages">
+            <div class="card-content">
+                <h3>Languages</h3>
+                <p>Python, C++, Java, Matlab, SQL, Shell script</p>
+            </div>
+        </div>
 
-    <h3>ML/DL Libraries</h3>
-    <p>PyTorch, TensorFlow, HeartPy, NeuroKit, ECGDeli, Transformers, Hugging Face, Langchain, OpenAI API, NLTK, Spacy, TensorFlow Lite, TensorFlow.js, TFX Production Pipelines, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Braindecode (EEG), Beautiful soup, Requests</p>
+        <div class="card">
+            <img src="images/ML LIB.jpeg" alt="ML Libraries">
+            <div class="card-content">
+                <h3>ML/DL Libraries</h3>
+                <p>PyTorch, TensorFlow, HeartPy, NeuroKit, ECGDeli, Transformers, Hugging Face, Langchain, OpenAI API, NLTK, Spacy, TensorFlow Lite, TensorFlow.js, TFX Production Pipelines, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Braindecode (EEG), Beautiful soup, Requests</p>
+            </div>
+        </div>
 
-    <h3>Tools</h3>
-    <p>Linux, Git and GitHub, Colab, Jupyter notebook, Google Cloud Platform, TensorBoard, VS Code</p>
+        <div class="card">
+            <img src="images/Pyt.jpg" alt="Tools">
+            <div class="card-content">
+                <h3>Tools</h3>
+                <p>Linux, Git and GitHub, Colab, Jupyter notebook, Google Cloud Platform, TensorBoard, VS Code</p>
+            </div>
+        </div>
 
-    <h3>Web Development</h3>
-    <p>HTML, CSS, PHP, Laravel, Javascript, Django, MERN stack</p>
+        <div class="card">
+            <img src="images/web.jpeg" alt="Web Development">
+            <div class="card-content">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, PHP, Laravel, Javascript, Django, MERN stack</p>
+            </div>
+        </div>
 
-    <h3>Research Skills</h3>
-    <p>LaTeX, Overleaf, ConceptDraw DIAGRAM, Data collection, Data analytics, Algorithm design, Literature review, Technical writing, Text mining</p>
+        <div class="card">
+            <img src="images/res.jpeg" alt="Research Skills">
+            <div class="card-content">
+                <h3>Research Skills</h3>
+                <p>LaTeX, Overleaf, ConceptDraw DIAGRAM, Data collection, Data analytics, Algorithm design, Literature review, Technical writing, Text mining</p>
+            </div>
+        </div>
 
-    <h3>Soft-Skills</h3>
-    <p>Problem solving, Leadership, Teamwork, Time management, Effective communication skills, Empathy, Agile software development</p>
+        <div class="card">
+            <img src="images/soft.jpeg" alt="Soft Skills">
+            <div class="card-content">
+                <h3>Soft-Skills</h3>
+                <p>Problem solving, Leadership, Teamwork, Time management, Effective communication skills, Empathy, Agile software development</p>
+            </div>
+        </div>
 
-    <p><a href="index.html">Back to Main Page</a></p>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Main Page</a>
+
+    <footer>
+        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
+        <p>Last Updated: December 15, 2024</p>
+    </footer>
+
 </body>
 </html>

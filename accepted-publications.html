@@ -3,25 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accepted Publications</title>
+    <title>Publications</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.7;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            color: #2C3E50;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            font-size: 1.4em;
+            color: #2C3E50;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        /* Back to Main Page Button */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #34495E;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px; /* Squarish corners */
+            text-decoration: none;
+            font-size: 1em;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Quote and Responsibility Note */
+        .quote-section {
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: #1E88E5;
+            font-size: 1.4em;
+        }
+
+        .responsibility {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 10px;
+            font-style: normal;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Accepted Publications</h1>
-    <p>
-        <strong>Combined UNet-ResNet Framework for Automated Denoising and Classification of Noisy Paper-Based ECGs</strong><br>
-        Authors: W. Sun, S. Cao, S. Kalmady, M. S. Islam, T. Ul Hassan, A. Hindle, R. Greiner, P. Kaul.<br>
-        <em>Accepted at the Computing in Cardiology Conference (CinC) 2024.</em>
-    </p>
-    <p>
-        <strong>CMBT Net: A Deep Learning-Based Approach for Automatic Feature Extraction and Classification of Electrocardiograms (ECGs)</strong><br>
-        Authors: T. Ul Hassan, H. Fakhar.<br>
-        <em>Accepted at the International Conference on Frontiers of Information Technology (FIT) 2024.</em>
-    </p>
-    <p>
-        <strong>Resolving Community Parking Issues: An IoT-Enabled Statistical and Deep Learning Approach for Enhanced Urban Parking Management</strong><br>
-        Authors: T. Ul Hassan, A. B. Khurram, S. Iqbal, A. W. Malik, M. M. Fraz.<br>
-        <em>Accepted at the International Conference on Frontiers of Information Technology (FIT) 2024.</em>
-    </p>
-    <p><a href="index.html">Back to Main Page</a></p>
+
+    <h1>Publications</h1>
+
+    <!-- Quote and Responsibility Section
+    <div class="quote-section">
+        <p>"Research is the highest form of creativity, for it leads to discoveries that change the world."</p>
+        <p class="responsibility">Note: All research and publications are presented with the intent of contributing positively to the academic and professional communities.</p>
+    </div> -->
+
+    <div class="container">
+        <h2>Accepted Publications</h2>
+        <div class="card">
+            <h3>Combined UNet-ResNet Framework for Automated Denoising and Classification of Noisy Paper-Based ECGs</h3>
+            <p><strong>Authors:</strong> W. Sun, S. Cao, S. Kalmady, M. S. Islam, <u>T. Ul. Hassan</u>, A. Hindle, R. Greiner, P. Kaul.</p>
+            <p><em>Accepted at the Computing in Cardiology Conference (CinC) 2024.</em></p>
+            <a href="https://cinc.org/2024/Program/accepted/225_Preprint.pdf" target="_blank">Link to Preprint</a>
+        </div>
+        <div class="card">
+            <h3>CMBT Net: A Deep Learning-Based Approach for Automatic Feature Extraction and Classification of Electrocardiograms (ECGs)</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, H. Fakhar.</p>
+            <p><em>Accepted at the Frontiers of Information Technology (FIT) Conference 2024.</em></p>
+        </div>
+        <div class="card">
+            <h3>Resolving Community Parking Issues: An IoT-Enabled Statistical and Deep Learning Approach for Enhanced Urban Parking Management</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, A. B. Khurram, S. Iqbal, A. W. Malik, M. M. Fraz.</p>
+            <p><em>Accepted at the Frontiers of Information Technology (FIT) Conference 2024.</em></p>
+        </div>
+
+        <h2>Submitted Publications</h2>
+        <div class="card">
+            <h3>Quickformer: A Simplified Transformer Architecture with Linear Time Complexity</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, R. S. Rehman, A. Hassan, F. Shafait.</p>
+            <p><em>Submitted to the International Conference on Document Analysis and Recognition (ICDAR) 2025.</em></p>
+        </div>
+        <div class="card">
+            <h3>Fine-Tuning Large Language Models for Optimal Resource Management in D2D Wireless Networks</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, A. B. Khurram, A. Waqar, A. Ahmad, S. A. Hassan, H. Jung.</p>
+            <p><em>Submitted to IEEE International Conference on Communications (ICC) 2025.</em></p>
+        </div>
+        <div class="card">
+            <h3>Proactive Virtual Network Embedding in Integrated Satellite-Terrestrial Networks</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, A. B. Khurram, A. Ahmed, S. Ekin, J. O’Hara, A. Ahmad.</p>
+            <p><em>Submitted to IEEE International Conference on Communications (ICC) 2025.</em></p>
+        </div>
+        <div class="card">
+            <h3>Formal Verification and Simulation of Autonomous Vehicle Protocols Using UPPAAL Model Checker</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, T. Ikram, M. Zubair.</p>
+            <p><em>Submitted to the International Conference on Open Source Systems and Technologies (ICOSST).</em></p>
+        </div>
+
+        <h2>Unsubmitted Manuscript</h2>
+        <div class="card">
+            <h3>Deep Learning for Vision-Aided Beamforming: A Comparative Analysis</h3>
+            <p><strong>Authors:</strong> <u>T. Ul. Hassan</u>, A. F. Mirza, S. A. Hassan.</p>
+            <p><em>We plan to submit this work to a related workshop of IEEE ICC'25 in January.</em></p>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Main Page</a>
+
+    <footer>
+        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
+        <p>Last Updated: December 15, 2024</p>
+    </footer>
+
 </body>
 </html>

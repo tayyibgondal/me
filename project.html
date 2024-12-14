@@ -4,25 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Projects</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.7;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2C3E50;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        strong {
+            color: #2C3E50;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Back to Main Page Button */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #34495E;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1em;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Best Projects</h1>
 
-    <ul>
-        <li><strong>ProtoECGNet:</strong> Designed an interpretable ECG diagnosis model as part of my research internship at the University of Alberta. .</li>
-        <li><strong>TorchLite:</strong> My open-source neural network library with a PyTorch-like API, built on top of a scalar-valued autograd engine. Currently supports ANNs only..</li>
-        <li><strong>Quickformer - Enhanced Transformer:</strong> Developed a faster transformer model with linear complexity, achieving 8x speed-up in NLP tasks. 
-        <li><strong>GPT-2 from Scratch:</strong> Implemented GPT-2 to generate Shakespeare-like text from scratch. 
-        <li><strong>EEGFormer:</strong> Built a custom transformer for epilepsy detection, achieving 85% accuracy and 0.71 F1 score. .</li>
-        <li><strong>ECG Rhythm Anomaly Detection:</strong> Trained an autoencoder on the ECG5000 dataset, achieving 94% accuracy and 0.90 recall. .</li>
-        <li><strong>Biomedical Image Segmentation:</strong> Performed image segmentation using U-Net for biomedical images. .</li>
-        <li><strong>Depression Detection via Social Media:</strong> Developed a hierarchical deep learning system to infer depression from social media posts. .</li>
-        <li><strong>GAN Architectures from Scratch:</strong> Implemented 6 GAN variants, including DCGAN, CycleGAN, ConditionalGAN, SNGAN, WGAN-GD, and styleGAN. .</li>
-        <li><strong>Text Summarization with Transformers:</strong> Compared the performance of GPT, BERT, BART, and other models on text summarization..</li>
-        <li><strong>Project Photon:</strong> Built a Google Photos clone using microservices architecture; deployed on Google Cloud. .</li>
-        <li><strong>National Open-Courseware:</strong> Built a clone of MIT OpenCourseWare for Pakistani universities to democratize access to higher education for underprivileged students..</li>
-    </ul>
+    <h1>Some of my Favourites!</h1>
+    <div class="container">
+        <ul>
+            <li><strong>TorchLite:</strong> My open-source neural network library with a PyTorch-like API, built on top of a scalar-valued autograd engine. <a href="https://github.com/tayyibgondal/torchLite" target="_blank">(Project Link)</a></li>
+            <li><strong>GPT-2 from Scratch:</strong> Implemented GPT-2 entirely from scratch using Python without any loops, making it 20x faster (for 3 transformer layers). <a href="https://github.com/tayyibgondal/GPT_from_scratch" target="_blank">(Project Link)</a></li>
+            <li><strong>File System:</strong> Implemented an efficient, multi-threaded file system in C++ as part of the Operating Systems course project. Our system was 8x faster than Python implementations on large files. <a href="https://github.com/tayyibgondal/Rethinking_File_System" target="_blank">(Project Link)</a></li>
+            <li><strong>Project Photon:</strong> Built a Google Photos clone using MERN stack, deployed on Google Cloud Platform with a microservices architecture. <a href="https://github.com/tayyibgondal/Project_Photon" target="_blank">(Project Link)</a></li>
+            <li><strong>National Open-Courseware:</strong> Built a clone of MIT OpenCourseWare for Pakistani universities, adding AI-based translation, chat rooms, and a digital library. <a href="https://github.com/tayyibgondal/National_Open_Courseware" target="_blank">(Project Link)</a></li>
+            <li><strong>GAN Architectures from Scratch:</strong> Implemented six GAN variants (DCGAN, CycleGAN, ConditionalGAN, SNGAN, WGAN-GD, and StyleGAN) in Python and Numpy. <a href="https://github.com/tayyibgondal/Generative_Adversarial_Networks_GANS" target="_blank">(Project Link)</a></li>
+        </ul>
 
-    <p><a href="index.html">Back to Main Page</a></p>
+        <p>For more projects, visit my <a href="https://github.com/tayyibgondal/" target="_blank">GitHub profile</a>.</p>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Main Page</a>
+
+    <footer>
+        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
+        <p>Last Updated: December 15, 2024</p>
+    </footer>
+
 </body>
 </html>
