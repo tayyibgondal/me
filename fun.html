@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun - Tayyib Ul Hassan</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.7;
+            padding: 30px;
+        }
+
+        h1, h2 {
+            color: #333;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            color: #2C3E50;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Styling */
+        .header {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; /* Space between image and text */
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .caption {
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .header-info {
+            flex: 1; /* Take up remaining space */
+        }
+
+        .header-info h1 {
+            margin-bottom: 10px;
+        }
+
+        .header-info p {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+
+        /* Horizontal Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            background-color: #34495E;
+            padding: 15px 0;
+            border-radius: 20px; /* Slightly rounded corners */
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 30px;
+            margin: 0 12px;
+            font-size: 1.1em;
+            border-radius: 10px; /* Rounded corners on buttons */
+            transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #3498db;
+            border-radius: 5px; /* Make hover effect more square */
+            transform: scale(1.05);
+        }
+
+        .navbar a:active {
+            transform: scale(1);
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery figure {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto; /* Changed from fixed height to auto for better responsiveness */
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery figcaption {
+            padding: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Footer Styling */
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Back to Main Page Button */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #34495E;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1em;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            z-index: 1000; /* Ensures the button stays above other elements */
+        }
+
+        .back-button:hover {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-info">
+            <h1>Hmmm</h1>
+            <p>
+                Welcome to my Hmmm page! I am very bad at capturing good photos, and almost always forget to take pictures on important events. Yet, here are some moments which I captured.
+            </p>
+        </div>
+    </div>
+
+
+    <h2 id="edmonton"> Visit to Edmonton, Canada (June 2024 - September 2024)</h2>
+    <p>This was my first time going to North America. I met so many amazing people from my field (CS and AI), as well as other fields; made so many new friends and connections; and got to appreciate and interact with people from diverse cultures. I will miss Edmonton.</p>
+    
+    <div class="gallery">
+        <!-- Image 1 -->
+        <figure>
+            <a href="images/edmonton/adam_white.jpg" target="_blank">
+                <img src="images/edmonton/adam_white.jpg">
+            </a>
+            <figcaption>Attended a seminar where Adam White was speaking. It was a dream come true seeing him in reality, after I had taken his famous RL course on Coursera.</figcaption>
+        </figure>
+
+        <!-- Image 2 -->
+        <figure>
+            <a href="images/edmonton/russ.jpg" target="_blank">
+                <img src="images/edmonton/russ.jpg">
+            </a>
+            <figcaption>Presented my work in Russ Group meeting on Aug 30, 2024. This was my last time attending this group's meeting in person. I loved how fruitful these meetings were. Everyone was brilliant, asking rigorous questions from presenters every time anyone presented their work.</figcaption>
+        </figure>
+
+        <!-- Image 3 -->
+        <figure>
+            <a href="images/edmonton/russ_party.jpg" target="_blank">
+                <img src="images/edmonton/russ_party.jpg">
+            </a>
+            <figcaption>Professor Russ invited us to his home for a party. I had the best desi food in Canada in this party :) In the picture are: Anuradha, Pooja, Russ, Weijie, and I (from left).</figcaption>
+        </figure>
+
+        <!-- Image 4 -->
+        <figure>
+            <a href="images/edmonton/preseting_researhc.jpg" target="_blank">
+                <img src="images/edmonton/preseting_researhc.jpg">
+            </a>
+            <figcaption>I presented my research in University of Alberta's annual ReverseExpo. Reverse EXPO is an annual meeting organized by the Department of Computing Science at the University of Alberta. In the picture are: Me, and Pooja (from left).</figcaption>
+        </figure>
+
+        <!-- Image 5 -->
+        <figure>
+            <a href="images/edmonton/research_exhi.jpg" target="_blank">
+                <img src="images/edmonton/research_exhi.jpg">
+            </a>
+            <figcaption>Mitacs interns at the University of Alberta had to present their work at the end of the internship. Here is me doing that. I wore glasses just to have 'Professor-like-vibes' jest.</figcaption>
+        </figure>
+
+        <!-- Image 6 -->
+        <figure>
+            <a href="images/edmonton/research_exhi_2.jpg" target="_blank">
+                <img src="images/edmonton/research_exhi_2.jpg">
+            </a>
+            <figcaption>Anuradha, I and Pooja (from left), after getting our Mitacs Internship Certificate.</figcaption>
+        </figure>
+
+        <!-- Image 7 -->
+        <figure>
+            <a href="images/edmonton/senate.jpg" target="_blank">
+                <img src="images/edmonton/senate.jpg">
+            </a>
+            <figcaption>I was featured in Alberta's Senate Chamber in University of Alberta, along with other Mitacs Interns.</figcaption>
+        </figure>
+        
+        <!-- Image 8 -->
+        <figure>
+            <a href="images/edmonton/mitacs_award.jpg" target="_blank">
+                <img src="images/edmonton/mitacs_award.jpg">
+            </a>
+            <figcaption>I am receiving my Mitacs Internship Certificate.</figcaption>
+        </figure>
+
+        <!-- Image 9 -->
+        <figure>
+            <a href="images/edmonton/uoa_study.jpg" target="_blank">
+                <img src="images/edmonton/uoa_study.jpg">
+            </a>
+            <figcaption>University of Alberta's CAB (Central Academic Building).</figcaption>
+        </figure>
+
+        <!-- Image 10 -->
+        <figure>
+            <a href="images/edmonton/sparkling_water.jpg" target="_blank">
+                <img src="images/edmonton/sparkling_water.jpg">
+            </a>
+            <figcaption>This is the empty cup after I had sparkling water for the first time in my life at Alberta Machine Intelligence's co-working space.</figcaption>
+        </figure>
+
+        <!-- Image 11 -->
+        <figure>
+            <a href="images/edmonton/wem.jpg" target="_blank">
+                <img src="images/edmonton/wem.jpg">
+            </a>
+            <figcaption>Went to West Edmonton Mall, which is North America's biggest mall.</figcaption>
+        </figure>
+
+        <!-- Image 12 -->
+        <figure>
+            <a href="images/edmonton/edmonton.jpg" target="_blank">
+                <img src="images/edmonton/edmonton.jpg">
+            </a>
+            <figcaption>A statue near UoA. This guy clearly had a very low body-fat percentage :)</figcaption>
+        </figure>
+
+        <!-- Image 13 -->
+        <figure>
+            <a href="images/edmonton/first_ice_skating.jpg" target="_blank">
+                <img src="images/edmonton/first_ice_skating.jpg">
+            </a>
+            <figcaption>My first time doing ice-skating.</figcaption>
+        </figure>
+
+        <!-- Image 14 -->
+        <figure>
+            <a href="images/edmonton/edmonton_cloudy.jpg" target="_blank">
+                <img src="images/edmonton/edmonton_cloudy.jpg">
+            </a>
+            <figcaption>It was about to rain, and I was commuting to my room.</figcaption>
+        </figure>
+
+        <!-- Image 15 -->
+        <figure>
+            <a href="images/edmonton/parli.jpg" target="_blank">
+                <img src="images/edmonton/parli.jpg">
+            </a>
+            <figcaption>Me in front of Alberta's parliament.</figcaption>
+        </figure>
+
+        <!-- Image 16 -->
+        <figure>
+            <a href="images/edmonton/cornmaze.jpg" target="_blank">
+                <img src="images/edmonton/cornmaze.jpg">
+            </a>
+            <figcaption>Went to a corn maze and it took me 3 hours to figure out how to come out :)</figcaption>
+        </figure>
+        
+        <!-- Image 17 -->
+        <figure>
+            <a href="images/edmonton/going_back.jpg" target="_blank">
+                <img src="images/edmonton/going_back.jpg">
+            </a>
+            <figcaption>It was sad to leave Edmonton. I will miss it. This is me going back.</figcaption>
+        </figure>
+        
+        <!-- Image 18 -->
+        <figure>
+            <a href="images/edmonton/montreal.jpg" target="_blank">
+                <img src="images/edmonton/montreal.jpg">
+            </a>
+            <figcaption>Flying above Montreal while going back.</figcaption>
+        </figure>
+    </div>
+
+    <h2 id="malakwal">Malakwal - My Hometown</h2>
+    <p>I was born in Malakwal, a small town in Punjab, Pakistan. Being from an unknown remote town has never held me back. My goal is to be a global leader in AI, and advance access to educational resources for underprivileged and remote communities like mine. Most of my school friends had to abandon education, just because they did not have the resources to fund their education, and had to support their families financially. Other than my academic pursuits, I want to help students like these so everyone can thrive at warp speed. <br>The road below goes straight to my home in Malakwal.</p>
+    
+    <div class="gallery">
+        <!-- Expanded Full-Width Figure -->
+        <figure style="width: 50%; margin: 0;">
+            <a href="images/malakwal.jpg" target="_blank">
+                <img src="images/malakwal.jpg" style="width: 100%; height: auto; display: block;">
+            </a>
+            <!-- <figcaption>
+                This road goes straight to my home in Malakwal.
+            </figcaption> -->
+        </figure>
+    </div>
+    
+    <!-- Back to Main Page Button -->
+    <a href="index.html" class="back-button">Back to Main Page</a>
+    
+    <div class="footer">
+        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
+        <p>Last Updated: December, 2024</p>
+    </div>
+
+</body>
+</html>
