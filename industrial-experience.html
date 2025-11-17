@@ -1,181 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industrial Experience</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.7;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 30px;
-            color: #2C3E50;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #2C3E50;
-        }
-
-        p {
-            font-size: 1.1em;
-            color: #555;
-        }
-
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-            font-size: 1em;
-            line-height: 1.7;
-        }
-
-        strong {
-            color: #2C3E50;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        /* Card Styling */
-        .card {
-            background-color: #fff;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-            display: flex;
-            gap: 20px;
-        }
-
-        .card img {
-            width: 160px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 2px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .card-content {
-            flex: 1;
-        }
-
-        .card h3 {
-            font-size: 1.4em;
-            margin-bottom: 10px;
-        }
-
-        .card ul {
-            padding-left: 20px;
-        }
-
-        .card ul li {
-            font-size: 1em;
-            margin-bottom: 10px;
-        }
-
-        /* Back to Main Page Button */
-        .back-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #34495E;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 1em;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .back-button:hover {
-            background-color: #3498db;
-            transform: scale(1.1);
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industry Experience · Tayyib Ul Hassan</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
+      <p>MSc CS @ University of Alberta · ex-MLE @ Cowlar (YC W17)</p>
+    </header>
 
-    <h1>Industrial Experience</h1>
-    <div class="container">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="accepted-publications.html">Publications</a>
+      <a href="research-experience.html">Research</a>
+      <a href="industrial-experience.html" aria-current="page">Industry</a>
+      <a href="skills.html">Skills</a>
+      <a href="project.html">Projects</a>
+      <a href="mentorship.html">Advice</a>
+      <a href="fun.html">Fun</a>
+    </nav>
 
-        <div class="card">
-            <img src="images/cowlar.png" alt="Cowlar Logo">
-            <div class="card-content">
-                <h3><a href="https://cowlardesignstudio.com/" target="_blank">Cowlar Inc (Y Combinator-backed company) – Islamabad</a></h3>
-                <p><strong>Machine Learning Engineer</strong> (October 2024 - Present)</p>
-                <ul>
-                    <li><strong>About:</strong> Cowlar is the only company in Pakistan backed by Y-Combinator, USA.</li>
-                    <li><strong>Role:</strong> Optimizing large language model (LLM) architectures for scalable applications in production environments.</li>
-                </ul>
-            </div>
-        </div>
+    <main>
+      <section class="card stack">
+        <h1>Industry Experience</h1>
+        <p class="lead">Agentic AI, ML engineering, and community-first tech initiatives.</p>
 
-        <div class="card">
-            <img src="images/rf.jpg" alt="Rehmat-e-Insaniat Logo">
-            <div class="card-content">
-                <h3><a href="https://rehmateinsaniat.org/" target="_blank">Rehmat-e-Insaniat Foundation (NGO) – M.B.Din</a></h3>
-                <p><strong>Backend Web Developer</strong> (May 2022 - Feb. 2023)</p>
-                <ul>
-                    <li><strong>About the Organization:</strong> Founded in 2016, Rehmat-e-Insaniat Foundation is a charitable organization focused on humanitarian aid.</li>
-                    <li><strong>Role:</strong> Developed the backend for the foundation’s official website using Django.</li>
-                </ul>
-            </div>
-        </div>
+        <article class="stack">
+          <h2>WarpShift · Canada</h2>
+          <p><strong>Founding Member</strong> · Sep 2025 – Present</p>
+          <ul>
+            <li>Building agentic AI copilots that compress cross-functional workflows for distributed teams.</li>
+            <li>Leading experimentation around orchestration, evals, and safety for autonomous agents.</li>
+          </ul>
+        </article>
 
-    </div>
+        <article class="stack">
+          <figure>
+            <img src="images/cowlar.png" alt="Cowlar logo" style="max-width: 160px;">
+          </figure>
+          <h2>Cowlar Inc. (YC W17) · Islamabad</h2>
+          <p><strong>Machine Learning Engineer</strong> · Oct 2024 – Oct 2025</p>
+          <ul>
+            <li>Built PR-review LLM agents integrated with GitLab commands (85% MR backlog reduction, ~3× faster deploys).</li>
+            <li>Automated end-to-end talent acquisition pipelines via LLM agents for sourcing, interviews, and scheduling.</li>
+            <li>Shipped internal tooling that saved engineering + operations teams dozens of hours per sprint.</li>
+          </ul>
+        </article>
 
-    <a href="index.html" class="back-button">Back to Main Page</a>
+        <article class="stack">
+          <h2>Cowlar Venture Studio</h2>
+          <p><strong>Machine Learning Engineer</strong> · Jul 2025 – Aug 2025</p>
+          <ul>
+            <li>Built ultra-fast voice agents for specialized flows within a confidential product line.</li>
+            <li>Optimized stack for latency + reliability across ~80% of high-frequency user journeys.</li>
+          </ul>
+        </article>
 
-    <footer>
-        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
-        <p>Last Updated: December, 2024</p>
+        <article class="stack">
+          <h2>Upwork</h2>
+          <p><strong>Data Scientist</strong> · Sep 2023 – Sep 2024</p>
+          <ul>
+            <li>Delivered bespoke ML solutions for startups navigating their first data products.</li>
+            <li>Focused on model deployment, analytics, and mentoring founding teams on strategy.</li>
+          </ul>
+        </article>
+
+        <article class="stack">
+          <h2>Learn Right Now</h2>
+          <p><strong>Computer Science Counsellor</strong> · Mar 2023 – Jun 2023 · Islamabad, Pakistan</p>
+          <ul>
+            <li>Produced a college-level CS curriculum with production-grade videos, assignments, and projects.</li>
+            <li>Advised students on academic + career decisions while curating supplemental resources.</li>
+          </ul>
+        </article>
+
+        <article class="stack">
+          <figure>
+            <img src="images/rf.jpg" alt="Rehmat-e-Insaniat Foundation" style="max-width: 160px;">
+          </figure>
+          <h2>Rehmat-e-Insaniat Foundation (NGO)</h2>
+          <p><strong>Backend Developer</strong> · May 2022 – Feb 2023 · Mandi Bahauddin, Pakistan</p>
+          <ul>
+            <li>Developed the official Django backend, improving transparency for donations + programs.</li>
+            <li>Coordinated with on-ground teams to modernize internal tooling.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Tayyib Ul Hassan. All rights reserved.</p>
+      <p>Last updated: November 2025</p>
     </footer>
-
+  </div>
 </body>
 </html>

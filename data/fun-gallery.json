@@ -1,0 +1,158 @@
+{
+  "sections": [
+    {
+      "id": "misc",
+      "title": "Miscellaneous",
+      "description": "Random snapshots from conferences and everyday lab life.",
+      "items": [
+        {
+          "src": "images/fit_24/fit.JPG",
+          "alt": "Presenting at FIT 2024",
+          "caption": "I attended IEEE FIT'24 on December 9-10 where two of my papers were accepted.",
+          "href": "images/fit_24/fit.JPG"
+        },
+        {
+          "src": "images/cowlar/cowlar.jpg",
+          "alt": "Desk setup at Cowlar Inc.",
+          "caption": "Cowlar Inc. is the only Pakistani company backed by Y Combinator. Here's my desk — yes, the internet really is ~3 Gbps.",
+          "href": "images/cowlar/cowlar.jpg"
+        },
+        {
+          "src": "images/cowlar/desk.jpg",
+          "alt": "Four monitor workstation at Cowlar",
+          "caption": "My four-screen workstation at Cowlar. It's fun to build with this much screen real estate.",
+          "href": "images/cowlar/desk.jpg"
+        }
+      ]
+    },
+    {
+      "id": "edmonton",
+      "title": "Visit to Edmonton, Canada (June – September 2024)",
+      "description": "My first time in North America was full of inspiring people, research conversations, and long summer days in Alberta.",
+      "items": [
+        {
+          "src": "images/edmonton/adam_white.jpg",
+          "alt": "Seminar with Adam White",
+          "caption": "Heard Adam White speak in person after taking his Coursera RL course.",
+          "href": "images/edmonton/adam_white.jpg"
+        },
+        {
+          "src": "images/edmonton/russ.JPG",
+          "alt": "Russ group presentation",
+          "caption": "Presented my work at the Russ group meeting on Aug 30, 2024 — the questions were always razor sharp.",
+          "href": "images/edmonton/russ.JPG"
+        },
+        {
+          "src": "images/edmonton/russ_party.jpg",
+          "alt": "Group photo at Russ' home",
+          "caption": "Professor Russ hosted a dinner — best desi food I had in Canada. In the picture: Anuradha, Pooja, Russ, Weijie, and me.",
+          "href": "images/edmonton/russ_party.jpg"
+        },
+        {
+          "src": "images/edmonton/preseting_researhc.jpg",
+          "alt": "ReverseExpo presentation",
+          "caption": "Presented at University of Alberta's ReverseExpo with Pooja.",
+          "href": "images/edmonton/preseting_researhc.jpg"
+        },
+        {
+          "src": "images/edmonton/research_exhi.jpg",
+          "alt": "Mitacs research exhibition",
+          "caption": "Mitacs interns showcasing projects — I brought the glasses for professor vibes.",
+          "href": "images/edmonton/research_exhi.jpg"
+        },
+        {
+          "src": "images/edmonton/research_exhi_2.jpg",
+          "alt": "Receiving Mitacs certificate",
+          "caption": "Anuradha, me, and Pooja after receiving our Mitacs Internship certificates.",
+          "href": "images/edmonton/research_exhi_2.jpg"
+        },
+        {
+          "src": "images/edmonton/senate.jpg",
+          "alt": "Alberta Senate chamber feature",
+          "caption": "Featured in Alberta's Senate Chamber alongside fellow Mitacs interns.",
+          "href": "images/edmonton/senate.jpg"
+        },
+        {
+          "src": "images/edmonton/mitacs_award.jpg",
+          "alt": "Receiving Mitacs internship certificate",
+          "caption": "Officially receiving the Mitacs Internship certificate.",
+          "href": "images/edmonton/mitacs_award.jpg"
+        },
+        {
+          "src": "images/edmonton/uoa_study.jpg",
+          "alt": "Central Academic Building",
+          "caption": "Central Academic Building (CAB) at University of Alberta became my second home.",
+          "href": "images/edmonton/uoa_study.jpg"
+        },
+        {
+          "src": "images/edmonton/sparkling_water.jpg",
+          "alt": "First sparkling water",
+          "caption": "Tried sparkling water for the first time at AMII's co-working space — verdict: interesting.",
+          "href": "images/edmonton/sparkling_water.jpg"
+        },
+        {
+          "src": "images/edmonton/wem.jpg",
+          "alt": "West Edmonton Mall",
+          "caption": "West Edmonton Mall — North America's largest mall.",
+          "href": "images/edmonton/wem.jpg"
+        },
+        {
+          "src": "images/edmonton/edmonton.jpg",
+          "alt": "Statue near University of Alberta",
+          "caption": "This statue near campus clearly had a ridiculously low body-fat percentage.",
+          "href": "images/edmonton/edmonton.jpg"
+        },
+        {
+          "src": "images/edmonton/first_ice_skating.jpg",
+          "alt": "First time ice skating",
+          "caption": "My first attempt at ice skating — lots of slipping, zero regrets.",
+          "href": "images/edmonton/first_ice_skating.jpg"
+        },
+        {
+          "src": "images/edmonton/edmonton_cloudy.jpg",
+          "alt": "Cloudy commute in Edmonton",
+          "caption": "Heading home just before the rain in Edmonton.",
+          "href": "images/edmonton/edmonton_cloudy.jpg"
+        },
+        {
+          "src": "images/edmonton/parli.jpg",
+          "alt": "In front of Alberta Parliament",
+          "caption": "Outside the parliament building in Alberta.",
+          "href": "images/edmonton/parli.jpg"
+        },
+        {
+          "src": "images/edmonton/cornmaze.jpg",
+          "alt": "Lost in a corn maze",
+          "caption": "Spent three hours inside this corn maze before figuring out the exit.",
+          "href": "images/edmonton/cornmaze.jpg"
+        },
+        {
+          "src": "images/edmonton/going_back.jpg",
+          "alt": "Heading back home",
+          "caption": "Packing up to leave Edmonton — already nostalgic.",
+          "href": "images/edmonton/going_back.jpg"
+        },
+        {
+          "src": "images/edmonton/montreal.jpg",
+          "alt": "View over Montreal",
+          "caption": "Flying over Montreal on the way back home.",
+          "href": "images/edmonton/montreal.jpg"
+        }
+      ]
+    },
+    {
+      "id": "malakwal",
+      "title": "Malakwal — My Hometown",
+      "description": "I was born in Malakwal, a small town in Punjab. My long-term mission is to help students from towns like mine access the opportunities they deserve.",
+      "items": [
+        {
+          "src": "images/malakwal.jpg",
+          "alt": "Road leading to my home in Malakwal",
+          "caption": "This road leads straight to my home in Malakwal.",
+          "href": "images/malakwal.jpg",
+          "presentation": "wide"
+        }
+      ]
+    }
+  ]
+}

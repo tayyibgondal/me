@@ -1,117 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Projects</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.7;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 30px;
-            color: #2C3E50;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            margin-bottom: 30px;
-        }
-
-        ul li {
-            margin-bottom: 15px;
-        }
-
-        strong {
-            color: #2C3E50;
-        }
-
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Back to Main Page Button */
-        .back-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #34495E;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 1em;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .back-button:hover {
-            background-color: #3498db;
-            transform: scale(1.1);
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Tayyib Ul Hassan</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
+      <p>MSc CS @ University of Alberta · ex-MLE @ Cowlar (YC W17)</p>
+    </header>
 
-    <h1>Some of my Favourites!</h1>
-    <div class="container">
-        <ul>
-            <li><strong>TorchLite:</strong> My open-source neural network library with a PyTorch-like API, built on top of a scalar-valued autograd engine. <a href="https://github.com/tayyibgondal/torchLite" target="_blank">(Project Link)</a></li>
-            <li><strong>GPT-2 from Scratch:</strong> Implemented GPT-2 entirely from scratch using Python without any loops, making it 20x faster (for 3 transformer layers). <a href="https://github.com/tayyibgondal/GPT_from_scratch" target="_blank">(Project Link)</a></li>
-            <li><strong>File System:</strong> Implemented an efficient, multi-threaded file system in C++ as part of the Operating Systems course project. Our system was 8x faster than Python implementations on large files. <a href="https://github.com/tayyibgondal/Rethinking_File_System" target="_blank">(Project Link)</a></li>
-            <li><strong>Project Photon:</strong> Built a Google Photos clone using MERN stack, deployed on Google Cloud Platform with a microservices architecture. <a href="https://github.com/tayyibgondal/Project_Photon" target="_blank">(Project Link)</a></li>
-            <li><strong>National Open-Courseware:</strong> Built a clone of MIT OpenCourseWare for Pakistani universities, adding AI-based translation, chat rooms, and a digital library. <a href="https://github.com/tayyibgondal/National_Open_Courseware" target="_blank">(Project Link)</a></li>
-            <li><strong>GAN Architectures from Scratch:</strong> Implemented six GAN variants (DCGAN, CycleGAN, ConditionalGAN, SNGAN, WGAN-GD, and StyleGAN) in Python and Numpy. <a href="https://github.com/tayyibgondal/Generative_Adversarial_Networks_GANS" target="_blank">(Project Link)</a></li>
-        </ul>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="accepted-publications.html">Publications</a>
+      <a href="research-experience.html">Research</a>
+      <a href="industrial-experience.html">Industry</a>
+      <a href="skills.html">Skills</a>
+      <a href="project.html" aria-current="page">Projects</a>
+      <a href="mentorship.html">Advice</a>
+      <a href="fun.html">Fun</a>
+    </nav>
 
-        <p>For more projects, visit my <a href="https://github.com/tayyibgondal/" target="_blank">GitHub profile</a>.</p>
-    </div>
+    <main>
+      <section class="card stack">
+        <h1>Selected Projects</h1>
+        <p class="lead">The builds I'm most proud of (and that pushed my thinking the most).</p>
 
-    <a href="index.html" class="back-button">Back to Main Page</a>
+        <div class="table-list">
+          <article>
+            <h3>TorchLite</h3>
+            <p>Open-source neural network library with a PyTorch-like API built on top of a scalar autograd engine.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/torchLite" target="_blank" rel="noopener">View project</a>
+          </article>
+          <article>
+            <h3>GPT-2 from Scratch</h3>
+            <p>Implemented GPT-2 in Python with vectorized operations (zero explicit loops) — ~20× faster for 3-layer setups.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/GPT_from_scratch" target="_blank" rel="noopener">View project</a>
+          </article>
+          <article>
+            <h3>Custom File System</h3>
+            <p>Multi-threaded C++ file system for an Operating Systems course; 8× faster than Python implementations on large files.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/Rethinking_File_System" target="_blank" rel="noopener">View project</a>
+          </article>
+          <article>
+            <h3>Project Photon</h3>
+            <p>MERN-based Google Photos clone deployed on Google Cloud with a microservices architecture.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/Project_Photon" target="_blank" rel="noopener">View project</a>
+          </article>
+          <article>
+            <h3>National Open-Courseware</h3>
+            <p>MIT OCW-inspired platform for Pakistani universities with AI translation, chat rooms, and a digital library.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/National_Open_Courseware" target="_blank" rel="noopener">View project</a>
+          </article>
+          <article>
+            <h3>GAN Architectures from Scratch</h3>
+            <p>Implemented DCGAN, CycleGAN, Conditional GAN, SNGAN, WGAN-GP, and StyleGAN using pure Python + NumPy.</p>
+            <a class="button-link" href="https://github.com/tayyibgondal/Generative_Adversarial_Networks_GANS" target="_blank" rel="noopener">View project</a>
+          </article>
+        </div>
 
-    <footer>
-        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
-        <p>Last Updated: December, 2024</p>
+        <p>More on <a href="https://github.com/tayyibgondal/" target="_blank" rel="noopener">GitHub</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Tayyib Ul Hassan. All rights reserved.</p>
+      <p>Last updated: November 2025</p>
     </footer>
-
+  </div>
 </body>
 </html>

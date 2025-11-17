@@ -1,191 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Experience</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.7;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #2C3E50;
-        }
-
-        p {
-            font-size: 1.1em;
-            color: #555;
-        }
-
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-            font-size: 1em;
-            line-height: 1.7;
-        }
-
-        strong {
-            color: #2C3E50;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        /* Card Styling */
-        .card {
-            background-color: #fff;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .card h3 {
-            font-size: 1.4em;
-            margin-bottom: 10px;
-        }
-
-        .card p {
-            margin-bottom: 10px;
-        }
-
-        .card ul {
-            padding-left: 20px;
-        }
-
-        .card ul li {
-            font-size: 1em;
-            margin-bottom: 10px;
-        }
-
-        /* Back to Main Page Button */
-        .back-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #34495E;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 10px; /* Squarish corners */
-            text-decoration: none;
-            font-size: 1em;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .back-button:hover {
-            background-color: #3498db;
-            transform: scale(1.1);
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Experience · Tayyib Ul Hassan</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
+      <p>MSc CS @ University of Alberta · ex-MLE @ Cowlar (YC W17)</p>
+    </header>
 
-    <h1>Research Experience</h1>
-    <div class="container">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="accepted-publications.html">Publications</a>
+      <a href="research-experience.html" aria-current="page">Research</a>
+      <a href="industrial-experience.html">Industry</a>
+      <a href="skills.html">Skills</a>
+      <a href="project.html">Projects</a>
+      <a href="mentorship.html">Advice</a>
+      <a href="fun.html">Fun</a>
+    </nav>
 
-        <div class="card">
-            <h3>University of Alberta, Alberta Machine Intelligence Institute (AMII) – Edmonton, Canada</h3>
-            <p><strong>Machine Learning Research Intern</strong> (March 2024 - Present)</p>
-            <ul>
-                <li><strong>ProtoECGNet:</strong> Worked under the supervision of Dr. Russ Greiner, Dr. Padma Kaul, and Dr. Sunil Kalmady Vasu. Developed ProtoECGNet, a prototype-based interpretable diagnostic deep learning model for electrocardiograms (ECGs). The model provides low-level statement code predictions along with the final diagnostic labels.</li>
-                <li><strong>Explainability:</strong> Integrated LLMs with RAG to provide semantic explanations of diagnoses, similar to human cardiovascular experts.</li>
-                <li><strong>Impact:</strong> Two variations of ProtoECGNet ranked in the top 10 in IEEE Computing in Cardiology Conference.</li>
-            </ul>
-        </div>
+    <main>
+      <section class="card stack">
+        <h1>Research Experience</h1>
+        <p class="lead">Blending academic rigor with deployable ML systems for healthcare and communications.</p>
 
-        <div class="card">
-            <h3>Information Processing and Transmission Lab – Islamabad, Pakistan</h3>
-            <p><strong>Machine Learning Research Intern</strong> (March 2024 - Present)</p>
-            <ul>
-                <li><strong>Work:</strong> Developing domain-specific LLMs for 6G networks, focusing on network modeling, channel state prediction, and dynamic spectrum allocation. Achieved 94.24% optimal spectral efficiency and 86.51% optimal energy efficiency in D2D wireless networks.</li>
-                <li><strong>Submitted:</strong> The work has been submitted to the IEEE International Conference on Communications (ICC) 2024.</li>
-            </ul>
-        </div>
+        <article class="stack">
+          <h2>University of Alberta · Alberta Machine Intelligence Institute (AMII)</h2>
+          <p><strong>Student Researcher</strong> · Sep 2024 – Present · Edmonton, Canada</p>
+          <p><strong>Research Intern</strong> · Jun 2024 – Sep 2024</p>
+          <ul>
+            <li><strong>ProtoECGNet:</strong> Prototype-based interpretable ECG diagnostics with low-level statement prediction under Dr. Russ Greiner, Dr. Padma Kaul, and Dr. Sunil Kalmady Vasu.</li>
+            <li><strong>Semantic explanations:</strong> Integrated LLMs + RAG to narrate diagnostic reasoning in cardiologist-friendly text.</li>
+            <li><strong>Distributed training:</strong> Exploring numerically stable, optimized training for large-scale ECG + LLM hybrids.</li>
+          </ul>
+        </article>
 
-        <div class="card">
-            <h3>Deep Learning Lab, National Centre of Artificial Intelligence (NCAI) – H-12, Islamabad</h3>
-            <p><strong>Research Intern</strong> (June 2023 - May 2024)</p>
-            <ul>
-                <li><strong>QuickFormer - GPT for Edge Devices:</strong> Proposed and implemented a faster transformer architecture named QuickFormer, achieving an 8x speed-up during training and inference, and a 10x reduced memory footprint.</li>
-                <li><strong>EEGFormer:</strong> Collaborated with a PhD student to design and implement a custom transformer architecture, EEGFormer, for epilepsy detection with 85% accuracy and an F1 score of 0.71.</li>
-            </ul>
-        </div>
+        <article class="stack">
+          <h2>Information Processing and Transmission Lab</h2>
+          <p><strong>Research Student</strong> · Sep 2024 – Jun 2025 · Islamabad, Pakistan</p>
+          <ul>
+            <li>Designed domain-specific LLMs for 6G: network modeling, channel state prediction, dynamic spectrum allocation.</li>
+            <li>Achieved 94.24% optimal spectral efficiency and 86.51% optimal energy efficiency in D2D wireless networks.</li>
+            <li>Published / submitted to IEEE ICC 2025 and IEEE ComSoc 2025.</li>
+          </ul>
+        </article>
 
-        <div class="card">
-            <h3>High Performance Computing Lab, NUST – H-12, Islamabad</h3>
-            <p><strong>Machine Learning Research Intern</strong> (June 2022 - September 2022)</p>
-            <ul>
-                <li><strong>Intelligent Parking Management:</strong> Designed and implemented an IoT-enabled parking management framework, reducing average parking search times by 35% compared to the unintelligent algorithm.</li>
-            </ul>
-        </div>
+        <article class="stack">
+          <h2>TUKL-NUST R&amp;D Center · Deep Learning Lab</h2>
+          <p><strong>Research Student</strong> · Dec 2024 – Mar 2025 · Islamabad, Pakistan</p>
+          <ul>
+            <li>Worked on deep-learning-assisted EEG diagnostics and signal interpretation.</li>
+            <li>Extended EEGFormer to better capture spatio-temporal-spectral patterns for epilepsy detection.</li>
+          </ul>
+        </article>
 
-        <div class="card">
-            <h3>Optical Networks and Technologies Lab (ONT), NUST – H-12, Islamabad</h3>
-            <p><strong>Machine Learning Research Intern</strong> (March 2023 - January 2024)</p>
-            <ul>
-                <li><strong>Virtual Network Embedding:</strong> Developed a simulation for an integrated network for 6G, with a focus on free-space optical communication and auto-encoder-based signal reconstruction.</li>
-                <li><strong>Optimal BBU Placement:</strong> Extended the PhD student's work on optimal Baseband Unit (BBU) placement, implementing an algorithm for 5G networks in online traffic scenarios.</li>
-            </ul>
-        </div>
+        <article class="stack">
+          <h2>National Centre of Artificial Intelligence (NCAI) · Deep Learning Lab</h2>
+          <p><strong>Deep Learning Research Intern</strong> · Jun 2023 – Jan 2024 · Islamabad, Pakistan</p>
+          <ul>
+            <li><strong>QuickFormer:</strong> Proposed a transformer variant with quick attention + boosters/feeblers achieving 8× faster training/inference and 10× lower memory.</li>
+            <li><strong>EEGFormer:</strong> Co-designed a custom transformer for epilepsy detection (85% accuracy, 0.71 F1).</li>
+            <li><strong>Recognition:</strong> Received “Best Deep Learning Research Intern” (Summer 2023 cohort).</li>
+          </ul>
+        </article>
 
-    </div>
+        <article class="stack">
+          <h2>Optical Networks and Technologies Lab (ONT) · NUST</h2>
+          <p><strong>Machine Learning Research Intern</strong> · Apr 2023 – Sep 2023 · Islamabad, Pakistan</p>
+          <ul>
+            <li><strong>Virtual Network Embedding:</strong> Built simulation pipelines for integrated 6G networks with free-space optical components.</li>
+            <li><strong>Optimal BBU Placement:</strong> Extended on-going PhD work to handle 5G traffic in online settings.</li>
+          </ul>
+        </article>
 
-    <a href="index.html" class="back-button">Back to Main Page</a>
+        <article class="stack">
+          <h2>High Performance Computing Lab · NUST</h2>
+          <p><strong>Research Intern</strong> · Jun 2022 – Sep 2022 · Islamabad, Pakistan</p>
+          <ul>
+            <li><strong>Intelligent Parking Management:</strong> IoT-enabled framework that reduced parking search time by 35% compared to naive allocation.</li>
+            <li>Co-authored a paper (under review at IEEE Transactions on Intelligent Vehicles).</li>
+          </ul>
+        </article>
+      </section>
+    </main>
 
-    <footer>
-        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
-        <p>Last Updated: December, 2024</p>
+    <footer class="site-footer">
+      <p>© 2025 Tayyib Ul Hassan. All rights reserved.</p>
+      <p>Last updated: November 2025</p>
     </footer>
-
+  </div>
 </body>
 </html>

@@ -1,254 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incomplete journey</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.7;
-            padding: 30px;
-        }
-
-        h1, h2 {
-            color: #333;
-            font-weight: 700;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            text-decoration: underline;
-            color: #2C3E50;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.7;
-            color: #555;
-        }
-
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Header Styling */
-        .header {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px; /* Space between image and text */
-            margin-bottom: 40px;
-        }
-
-        .header img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .caption {
-            font-size: 0.9em;
-            color: #777;
-            text-align: center;
-            font-style: italic;
-            margin-top: 5px;
-        }
-
-        .header-info {
-            flex: 1; /* Take up remaining space */
-        }
-
-        .header-info h1 {
-            margin-bottom: 10px;
-        }
-
-        .header-info p {
-            margin: 10px 0;
-            font-size: 1em;
-        }
-
-        /* Horizontal Navigation Bar (Table of Contents) */
-        .navbar {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-            margin-bottom: 40px;
-            background-color: #34495E;
-            padding: 15px 0;
-            border-radius: 20px; /* Slightly rounded corners */
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 30px;
-            margin: 0 12px;
-            font-size: 1.1em;
-            border-radius: 10px; /* Rounded corners on buttons */
-            transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
-            text-align: center;
-        }
-
-        .navbar a:hover {
-            background-color: #3498db;
-            border-radius: 5px; /* Make hover effect more square */
-            transform: scale(1.05);
-        }
-
-        .navbar a:active {
-            transform: scale(1);
-        }
-
-        /* Adding some sections with personality */
-        .story {
-            background-color: #fff;
-            padding: 30px;
-            margin-top: 40px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .story h3 {
-            color: #2C3E50;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        }
-
-        .story p {
-            font-size: 1.1em;
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .quote {
-            font-style: italic;
-            color: #0074D9; /* Updated bluish tone */
-            font-size: 1.4em;
-            margin-top: 30px;
-            text-align: center;
-        }
-
-        .highlight {
-            background-color: #f9f9f9;
-            border-left: 5px solid #3498db;
-            padding: 20px;
-            margin-bottom: 30px;
-            font-size: 1.1em;
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .highlight p {
-            margin: 0;
-            font-weight: 600;
-        }
-
-        .highlight span {
-            font-weight: 400;
-            color: #333;
-        }
-
-        /* Footer Styling */
-        .footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        .footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tayyib Ul Hassan · MSc CS @ UAlberta</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
+      <p>MSc CS @ University of Alberta · ex-MLE @ Cowlar (YC W17)</p>
+    </header>
 
-    <div class="header">
-        <div>
-            <!-- Image of the user -->
-            <img src="images/intro.JPG" alt="Tayyib Ul Hassan">
-            <div class="caption">In front of Athabasca Hall, University of Alberta (12-07-2024)</div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="education.html">Education</a>
+      <a href="accepted-publications.html">Publications</a>
+      <a href="research-experience.html">Research</a>
+      <a href="industrial-experience.html">Industry</a>
+      <a href="skills.html">Skills</a>
+      <a href="project.html">Projects</a>
+      <a href="mentorship.html">Advice</a>
+      <a href="fun.html">Fun</a>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <figure class="hero-photo">
+          <img src="images/intro.JPG" alt="Tayyib Ul Hassan outside Athabasca Hall">
+          <figcaption>In front of Athabasca Hall, University of Alberta (12 Jul 2024)</figcaption>
+        </figure>
+        <div class="hero-details">
+          <h1>Hi, I'm Tayyib.</h1>
+          <p class="lead">
+            MSc CS student @ UAlberta (AMII) · Founding member of WarpShift · previously built agentic AI pipelines
+            at Cowlar (YC W17). I explore optimized distributed training for LLMs, interpretable ECG/EEG diagnostics,
+            and robust numerical optimization for scaling neural systems.
+          </p>
+          <div class="badge">Based in Edmonton · Open to remote collabs</div>
+          <div class="contact-grid">
+            <a href="tel:+923414455966" target="_blank" rel="noopener">
+              Mobile · +92 341 4455966 <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="mailto:tayyibgondal2003@gmail.com" target="_blank" rel="noopener">
+              Primary · tayyibgondal2003@gmail.com <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="mailto:tayyibul@ualberta.ca" target="_blank" rel="noopener">
+              UAlberta · tayyibul@ualberta.ca <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/tayyib-ul-hassan-4b24541b2/" target="_blank" rel="noopener">
+              LinkedIn <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=x5t5h5IAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">
+              Google Scholar <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/tayyibgondal/" target="_blank" rel="noopener">
+              GitHub <span class="contact-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
-        <div class="header-info">
-            <h1>Tayyib Ul Hassan</h1>
-            <p>
-                Mobile: +92-341-4455966 <br>
-                Main Email: <a href="mailto:thassan.bese21seecs@seecs.edu.pk">thassan.bese21seecs@seecs.edu.pk</a> (Primary email) <br>
-                University of Alberta Email: <a href="mailto:tayyibul@ualberta.ca">tayyibul@ualberta.ca</a> (Closer-to-my-heart, but Secondary email)<br> 
-                Job Email: <a href="mailto:tayyibulhassan.cowlar@gmail.com">tayyibulhassan.cowlar@gmail.com</a> <br>
-                Google Scholar: <a href="https://scholar.google.com/citations?hl=en&user=x5t5h5IAAAAJ&view_op=list_works&sortby=pubdate" style="color: rgb(214, 55, 55);">Google scholar page</a><br> 
-                Research Gate: <a href="https://www.researchgate.net/profile/Tayyib-Hassan/research" style="color: rgb(214, 55, 55);">researchgate.net/profile/Tayyib-Hassan</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/tayyib-ul-hassan-4b24541b2/" target="_blank">linkedin.com/tayyib-ul-hassan</a> <br>
-                GitHub: <a href="https://github.com/tayyibgondal/" target="_blank" style="color: rgb(54, 133, 34);">github.com/tayyibgondal</a> <br>
-                Medium: <a href="https://medium.com/@tayyibgondal2003" target="_blank" style="color: rgb(54, 133, 34);">medium.com/@tayyibgondal2003</a> <br>
-                Hugging Face: <a href="https://huggingface.co/tayyibsupercool" target="_blank" style="color: rgb(54, 133, 34);">huggingface.co/tayyibsupercool</a>
-            </p>
-        </div>
-    </div>
+      </section>
 
-    <div class="navbar">
-        <a href="education.html">Education</a>
-        <a href="accepted-publications.html">Publications</a>
-        <a href="research-experience.html">Research</a>
-        <a href="industrial-experience.html">Industry</a>
-        <a href="skills.html">Skills</a>
-        <a href="project.html">Projects</a>
-        <a href="mentorship.html">Advice</a>
-        <a href="fun.html">Fun</a>
-    </div>
+      <section class="grid-two">
+        <article class="card">
+          <h2>Currently</h2>
+          <p>
+            • Student Researcher @ University of Alberta / AMII — building diagnostic + prognostic ECG models with semantic explanations.<br>
+            • Founding Member @ WarpShift — shipping agentic AI co-pilots for distributed teams.<br>
+            • ex-MLE @ Cowlar & Cowlar Venture Studio — led PR review agents, recruiting automation, and voice interfaces that cut cycle time by 80%+.
+          </p>
+          <ul class="list-plain">
+            <li>Optimized distributed training + inference for LLMs that need to live on constrained hardware.</li>
+            <li>Prototype-based ECG/EEG models that stay interpretable for clinicians.</li>
+            <li>Mentor students who want to mix research with production impact.</li>
+          </ul>
+        </article>
 
-    <!-- <div class="story">
-        <h3>Summarised Research Interests</h3>
+        <article class="card">
+          <h2>Research Spotlight · QuickFormer</h2>
+          <p>
+            QuickFormer rethinks the standard transformer with quick attention, boosters, and feeblers —
+            trimming time and space complexity from quadratic to linear while staying competitive on
+            generation benchmarks.
+          </p>
+          <p class="highlight">Built for practical deployment on resource-constrained devices.</p>
+        </article>
+      </section>
+
+      <section class="card">
+        <h2>Research Interests</h2>
         <p>
-            Diagnostic and prognostic deep learning models for ECG/EEG, Domain Specific LLMs, optimization, large scale neural architectures, efficient neural architectures, reinforcement learning.
+          Optimized distributed training of LLMs · numerical optimization · efficient + interpretable neural architectures ·
+          diagnostic & prognostic DL models for ECG/EEG · reinforcement learning · agentic AI systems that can be trusted in
+          production.
         </p>
-        <h3>Detailed Research Interests</h3>
         <p>
-            How can Artificial Intelligence (AI) transform healthcare to make it faster, more trustable, and accessible to everyone? How can we design AI architectures and training algorithms that are computationally efficient, and generalizable for underrepresented classes in datasets? How can natural language processing, reinforcement learning, and computer vision techniques be combined and optimized for healthcare settings, especially in predictive diagnostics, data scarcity, and disease heterogeneity scenarios? Inspired by these questions, my current research interests lie at the unique intersection of AI in healthcare, numerical optimization, and large scale neural architectures. By designing algorithms and models that are efficient, interpretable, pragmatic, scalable and impactful, I want to bridge the gap between AI advancements and real-world healthcare applications.
+          I also sketch, design, and occasionally play guitar when I need to reset my brain.
         </p>
-    </div> -->
+      </section>
 
-    <div class="highlight">
-        <p><strong>Research Spotlight: </strong><span>QuickFormer</span></p>
-        <p>
-            One of my most fulfilling projects has been optimizing transformer architecture. I modified the standard transformer architecture by introducing three changes—quick attention, boosters, and feeblers—to its layers which successfully reduced its time and space complexity from quadratic to linear whilst maintaining performance on language generation tasks.
-        </p>
-    </div>
+  
+    </main>
 
-    <div class="quote">
-        <p>"The best way to predict the future is to invent it." — Alan Kay</p>
-    </div>
-
-    <div class="footer">
-        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
-        <p>Last Updated: December, 2024</p>
-    </div>
-
+    <footer class="site-footer">
+      <p>© 2025 Tayyib Ul Hassan. All rights reserved.</p>
+      <p>Last updated: November 2025</p>
+    </footer>
+  </div>
 </body>
 </html>

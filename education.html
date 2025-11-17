@@ -1,138 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education</title>
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-color: #f4f4f4;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.7;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 30px;
-            color: #2C3E50;
-        }
-
-        p {
-            font-size: 1.1em;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        strong {
-            color: #2C3E50;
-        }
-
-        em {
-            font-style: italic;
-            color: #555;
-        }
-
-        .funny-text {
-            background-color: #e8f5f8;
-            border-left: 5px solid #3498db;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 5px;
-            color: #3498db;
-            font-style: italic;
-        }
-
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Back to Main Page Button */
-        .back-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #34495E;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 1em;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .back-button:hover {
-            background-color: #3498db;
-            transform: scale(1.1);
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-        }
-
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education · Tayyib Ul Hassan</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
+      <p>MSc CS @ University of Alberta · ex-MLE @ Cowlar (YC W17)</p>
+    </header>
 
-    <h1>Education</h1>
-    <div class="container">
-        <p>
-            <strong>National University of Science and Technology (NUST)</strong><br>
-            Bachelor of Engineering in Software Engineering<br>
-            <em>H-12, Islamabad</em> (Nov. 2021 – June 2025)
-        </p>
-        <p>
-            <strong>GPA:</strong> 3.96 
-        </p>
-        <div class="funny-text">
-            Class rank: ∼1/100
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About</a>
+      <a href="education.html" aria-current="page">Education</a>
+      <a href="accepted-publications.html">Publications</a>
+      <a href="research-experience.html">Research</a>
+      <a href="industrial-experience.html">Industry</a>
+      <a href="skills.html">Skills</a>
+      <a href="project.html">Projects</a>
+      <a href="mentorship.html">Advice</a>
+      <a href="fun.html">Fun</a>
+    </nav>
+
+    <main>
+      <section class="card stack">
+        <div class="stack">
+          <h1>Education</h1>
+          <p class="lead">Graduate work in scalable ML systems layered on top of a rigorous software engineering foundation.</p>
         </div>
-        <p>
-            <strong>Courses:</strong> Machine Learning, Reinforcement Learning, Calculus & Analytical Geometry, 
-            Probability and Statistics, Linear Algebra, Data Structures and Algorithms, Design and Analysis of Algorithms, 
-            Software Design and Architecture, Cloud Computing, Distributed Computing, Software Engineering, Database Systems.
-        </p>
-        <p>
-            <strong>Best Semester Projects:</strong> Cloud Computing, Computer Networks, Design and Analysis of Algorithms, 
-            Object-Oriented Programming, Data Structures and Algorithms.
-        </p>
-    </div>
 
-    <a href="index.html" class="back-button">Back to Main Page</a>
+        <article class="stack">
+          <h2>University of Alberta</h2>
+          <p><strong>MSc Computer Science</strong> · Aug 2025 – Apr 2027 · Edmonton, Canada</p>
+          <ul>
+            <li>Thesis focus: optimized distributed training for LLMs + interpretable clinical AI.</li>
+            <li>Advised through the Alberta Machine Intelligence Institute (AMII).</li>
+          </ul>
+        </article>
 
-    <footer>
-        <p>&copy; 2024 Tayyib Ul Hassan. All Rights Reserved.</p>
-        <p>Last Updated: December, 2024</p>
+        <article class="stack">
+          <h2>National University of Sciences and Technology (NUST)</h2>
+          <p><strong>B.E. Software Engineering</strong> · Nov 2021 – Jun 2025 · Islamabad, Pakistan</p>
+          <ul>
+            <li>CGPA: 3.96 / 4.00</li>
+            <li>Class rank: ~1 out of 100</li>
+            <li>Dean's Honor List every semester</li>
+          </ul>
+          <div class="notice">I am grateful for the support that allowed me to stay at the top of my cohort.</div>
+        </article>
+
+        <article class="stack">
+          <h3>Representative coursework & formative projects</h3>
+          <p>
+            Machine Learning, Deep Learning, Reinforcement Learning, Numerical Optimization, Calculus &
+            Analytical Geometry, Linear Algebra, Probability & Statistics, DSA, Design & Analysis of Algorithms,
+            Software Design & Architecture, Cloud + Distributed Systems, Database Systems, Computer Networks.
+          </p>
+          <p>
+            Semester projects across Cloud Computing, Networks, Algorithms, OOP, and DSA laid the groundwork
+            for open-source projects like TorchLite, GPT-2 from scratch, and QuickFormer.
+          </p>
+        </article>
+
+        <article class="stack">
+          <h3>Earlier schooling</h3>
+          <ul>
+            <li><strong>Punjab College of Science, Lahore</strong> · Intermediate (Pre-Engineering) · Aug 2019 – Jul 2021</li>
+            <li><strong>Rafi Ul Islam School</strong> · Matriculation (Pre-Engineering) · Apr 2017 – Mar 2019</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Tayyib Ul Hassan. All rights reserved.</p>
+      <p>Last updated: November 2025</p>
     </footer>
-
+  </div>
 </body>
 </html>
