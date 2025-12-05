@@ -139,20 +139,6 @@
           "href": "images/edmonton/montreal.jpg"
         }
       ]
-    },
-    {
-      "id": "malakwal",
-      "title": "Malakwal — My Hometown",
-      "description": "I was born in Malakwal, a small town in Punjab. My long-term mission is to help students from towns like mine access the opportunities they deserve.",
-      "items": [
-        {
-          "src": "images/malakwal.jpg",
-          "alt": "Road leading to my home in Malakwal",
-          "caption": "This road leads straight to my home in Malakwal.",
-          "href": "images/malakwal.jpg",
-          "presentation": "wide"
-        }
-      ]
     }
   ]
 }
