@@ -5,8 +5,247 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Availability · Tayyib Ul Hassan</title>
   <link rel="stylesheet" href="assets/css/site.css">
+  <style>
+    body {
+      position: relative;
+      overflow-x: hidden;
+    }
+    
+    .sky-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(to bottom, #87CEEB 0%, #E0F6FF 50%, #ffffff 100%);
+    }
+    
+    .cloud {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 100px;
+      opacity: 0.7;
+      animation: float linear infinite;
+    }
+    
+    .cloud::before,
+    .cloud::after {
+      content: '';
+      position: absolute;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 100px;
+    }
+    
+    .cloud:nth-child(1) {
+      width: 100px;
+      height: 40px;
+      top: 10%;
+      left: -100px;
+      animation-duration: 45s;
+    }
+    
+    .cloud:nth-child(1)::before {
+      width: 50px;
+      height: 50px;
+      top: -25px;
+      left: 10px;
+    }
+    
+    .cloud:nth-child(1)::after {
+      width: 60px;
+      height: 40px;
+      top: -20px;
+      right: 10px;
+    }
+    
+    .cloud:nth-child(2) {
+      width: 120px;
+      height: 50px;
+      top: 25%;
+      left: -120px;
+      animation-duration: 60s;
+      animation-delay: -10s;
+    }
+    
+    .cloud:nth-child(2)::before {
+      width: 60px;
+      height: 60px;
+      top: -30px;
+      left: 15px;
+    }
+    
+    .cloud:nth-child(2)::after {
+      width: 70px;
+      height: 50px;
+      top: -25px;
+      right: 15px;
+    }
+    
+    .cloud:nth-child(3) {
+      width: 90px;
+      height: 35px;
+      top: 50%;
+      left: -90px;
+      animation-duration: 50s;
+      animation-delay: -20s;
+    }
+    
+    .cloud:nth-child(3)::before {
+      width: 45px;
+      height: 45px;
+      top: -20px;
+      left: 10px;
+    }
+    
+    .cloud:nth-child(3)::after {
+      width: 55px;
+      height: 40px;
+      top: -18px;
+      right: 10px;
+    }
+    
+    .cloud:nth-child(4) {
+      width: 110px;
+      height: 45px;
+      top: 70%;
+      left: -110px;
+      animation-duration: 55s;
+      animation-delay: -30s;
+    }
+    
+    .cloud:nth-child(4)::before {
+      width: 55px;
+      height: 55px;
+      top: -27px;
+      left: 12px;
+    }
+    
+    .cloud:nth-child(4)::after {
+      width: 65px;
+      height: 45px;
+      top: -22px;
+      right: 12px;
+    }
+    
+    .cloud:nth-child(5) {
+      width: 130px;
+      height: 55px;
+      top: 15%;
+      left: -130px;
+      animation-duration: 70s;
+      animation-delay: -5s;
+    }
+    
+    .cloud:nth-child(5)::before {
+      width: 65px;
+      height: 65px;
+      top: -32px;
+      left: 18px;
+    }
+    
+    .cloud:nth-child(5)::after {
+      width: 75px;
+      height: 55px;
+      top: -28px;
+      right: 18px;
+    }
+    
+    .cloud:nth-child(6) {
+      width: 85px;
+      height: 32px;
+      top: 40%;
+      left: -85px;
+      animation-duration: 48s;
+      animation-delay: -25s;
+    }
+    
+    .cloud:nth-child(6)::before {
+      width: 42px;
+      height: 42px;
+      top: -18px;
+      left: 8px;
+    }
+    
+    .cloud:nth-child(6)::after {
+      width: 50px;
+      height: 35px;
+      top: -16px;
+      right: 8px;
+    }
+    
+    .cloud:nth-child(7) {
+      width: 105px;
+      height: 42px;
+      top: 60%;
+      left: -105px;
+      animation-duration: 52s;
+      animation-delay: -15s;
+    }
+    
+    .cloud:nth-child(7)::before {
+      width: 52px;
+      height: 52px;
+      top: -24px;
+      left: 13px;
+    }
+    
+    .cloud:nth-child(7)::after {
+      width: 62px;
+      height: 42px;
+      top: -21px;
+      right: 13px;
+    }
+    
+    .cloud:nth-child(8) {
+      width: 95px;
+      height: 38px;
+      top: 80%;
+      left: -95px;
+      animation-duration: 58s;
+      animation-delay: -35s;
+    }
+    
+    .cloud:nth-child(8)::before {
+      width: 48px;
+      height: 48px;
+      top: -22px;
+      left: 11px;
+    }
+    
+    .cloud:nth-child(8)::after {
+      width: 58px;
+      height: 38px;
+      top: -19px;
+      right: 11px;
+    }
+    
+    @keyframes float {
+      0% {
+        left: -150px;
+      }
+      100% {
+        left: 110%;
+      }
+    }
+    
+    .site-shell {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
 </head>
 <body>
+  <div class="sky-background">
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+  </div>
   <div class="site-shell">
     <header class="site-header">
       <a class="site-brand" href="index.html">TAYYIB UL HASSAN</a>
